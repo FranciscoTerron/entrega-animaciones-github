@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(129, 15, 15);
+}
+
+h1 {
+    color: red;
+    font-size: 55px;
+}
+
+h1:hover {
+    color: blue;
+    background-image: linear-gradient(#e66a6a, #28cc63, #d2d512);
+    text-decoration: line-through;
+    transition: .4s;
+}
+
+p:hover {
+    color: aqua;
+    text-decoration: underline;
+    transition: .2;
+}
+
+input {
+    width: 300px;
+    padding: 20px;
+    background-color: #d2d512;
+}
+
+input:focus {
+    border-radius: 10%;
+    background-color: #e66a6a;
+    transition: .5;
+}
